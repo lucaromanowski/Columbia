@@ -7,13 +7,17 @@ import pygame as pg
 from settings import *
 
 def checkEvents(program):
+	'''
+	Checking for events
+	'''
+
 	for event in pg.event.get():
 			if event.type == pg.QUIT:
 				program.running= False
 			# Keyboard input
 			if event.type == pg.KEYDOWN:
 				
-				# Changing levels
+				# Changing levels (probably temporary solution only for test purposes)
 				if event.key == pg.K_d:
 					# Change level (by index number)
 					try:					

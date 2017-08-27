@@ -46,7 +46,7 @@ class MainGame:
 
 		print("All levels:" ,str(self.all_levels))
 
-		# Setting up current level
+		# Setting up current level 
 		self.current_level = self.all_levels[self.levelNumber]
 		print('Current level: ', str(self.current_level.name))
 
